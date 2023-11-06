@@ -17,7 +17,7 @@ Le regole per il calcolo sono:
 3.  Calcolare il prezzo del biglietto (numero di km \* 0.21) e salvare il risultato in una variabile
 4.  Applicare in base alle condizioni i vari sconti:
 
-        if (etaUtente >= 18){
+        if (etaUtente <= 18){
             applicare sconto del 20%
         } else if (etaUtente > 65){
             applicare sconto del 40%
